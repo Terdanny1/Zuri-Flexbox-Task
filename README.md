@@ -1,2 +1,2 @@
 # Zuri-Flexbox-Task
-## A simple arrangement os divs using flexbox
+## A simple arrangement of divs using flexbox
