@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 main {
   width: 70%;
   margin: auto;
