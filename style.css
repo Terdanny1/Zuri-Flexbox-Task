@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 3em;
+}
+
+.item {
+  width: 33.33%;
+  padding: 2em;
+}
+
+.box-1 {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.box-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.box-3 {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.name {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 2rem auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text {
+  font-family: "Lexend", sans-serif;
+  margin: 2rem auto;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend", sans-serif;
+  margin-top: 4rem;
+  padding: 7% 18%;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 680px) {
+  main {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .item {
+    width: 70%;
+  }
+}
