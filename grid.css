@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+}
+
+body {
+  background-color: #191919;
+  color: white;
+  /* display: flex; */
+  min-height: 100vh;
+}
+.switch-btn {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin: auto;
+}
+.btn {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10% auto;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 50px;
+}
+.btn a {
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: none;
+}
+
+#container {
+  margin: 5% auto;
+  width: 60%;
+  display: grid;
+  grid-template-areas:
+    "one one one two"
+    "three three four four"
+    /* 'three three fve fve' */;
+  grid-gap: 1rem;
+}
+
+/* .item {
+    padding: 6rem;
+    
+} */
+
+.nest {
+  display: grid;
+  gap: 1rem;
+  grid-area: four;
+}
+
+.one {
+  background-color: red;
+  grid-area: one;
+  padding: 6rem;
+}
+
+.two {
+  background-color: orange;
+  grid-area: two;
+  padding: 2rem;
+}
+
+.three {
+  background-color: rgb(26, 121, 46);
+  grid-area: three;
+  padding: 16rem 0 4rem;
+}
+
+.four {
+  background-color: blue;
+  padding: 5px;
+}
+
+.five {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 680px) {
+  .switch-btn {
+    width: 70%;
+  }
+}
